@@ -8,14 +8,7 @@ ls -1
 echo '=== Navigate to tests folder'
 cd /Users/buddybuild/workspace
 
-echo '=== Install Jest'
-echo npm install jest
 
-echo '=== Install appium 1.4.16'
-npm install -g appium@1.4.16
-
-echo '=== Install selenium-webdriver'
-npm install wd
 
 echo '=== Authorize simulator access'
 echo password | sudo -S authorize_ios
