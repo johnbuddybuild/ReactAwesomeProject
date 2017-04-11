@@ -1,1 +1,1 @@
-{"preset": "react-native"}
+{"preset": "react-native","rootDir":"/tmp/sandbox/workspace"}
