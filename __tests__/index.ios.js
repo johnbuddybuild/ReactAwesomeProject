@@ -18,8 +18,8 @@ driver = wd.promiseChainRemote(local);
 beforeAll(()=>{
     return driver.init({
         platformName: 'iOS',
-        platformVersion: '10.3',
-        deviceName: 'iPhone Simulator',
+        platformVersion: '10.2',
+        deviceName: 'iPhone 6',
         app: '/Users/john/AwesomeProject/ios/build/Build/Products/Release-iphonesimulator/AwesomeProject.app'
     });
 });
