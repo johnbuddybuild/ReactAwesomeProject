@@ -20,7 +20,7 @@ beforeAll(()=>{
         platformName: 'iOS',
         platformVersion: '10.2',
         deviceName: 'iPhone 6',
-        app: '/Users/john/AwesomeProject/ios/build/Build/Products/Release-iphonesimulator/AwesomeProject.app'
+        app: 'ios/build/Build/Products/Release-iphonesimulator/AwesomeProject.app'
     });
 });
 
