@@ -2,9 +2,13 @@
 
 echo '=== PREBUILD FOLDER STRUCTURE'
 ls -1
+echo "=== INBOUND FOLDER PATH"
+pwd
 echo '=== ../ FOLDER STRUCTURE'
 cd ../
 ls -1
+echo '=== ../ FOLDER PATH'
+pwd
 
 echo '=== install chromedriver'
 brew install chromedriver
