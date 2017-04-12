@@ -30,9 +30,6 @@ it('renders correctly', () => {
   );
 });
 
-it('handles appium tests',() => {
-    return driver.elementByAccessibilityId("Welcome to React Native!").then((element)=> {
-        console.log(element);
-        expect(element.value).toBe("Hello, World!");
-    });
+it('simple test',() => {
+    expect((1+1)).toBe(2);
 });
