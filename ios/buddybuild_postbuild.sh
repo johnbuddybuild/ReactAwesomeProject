@@ -6,4 +6,4 @@ ls -1
 echo '=== Navigate to tests folder'
 cd /tmp/sandbox/workspace
 
-sleep 15 && bundle exec npm test
+sleep 15 && exec npm test
