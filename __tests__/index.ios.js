@@ -10,19 +10,6 @@ const local = {
   host: 'localhost',
   port: 4723
 };
-let driver = null;
-var wd = require("wd"),
-    _ = require('underscore'),
-    Q = require('q');
-driver = wd.promiseChainRemote(local);
-beforeAll(()=>{
-    return driver.init({
-        platformName: 'iOS',
-        platformVersion: '10.2',
-        deviceName: 'iPhone 6',
-        app: 'ios/build/Build/Products/Release-iphonesimulator/AwesomeProject.app'
-    });
-});
 
 it('renders correctly', () => {
   const tree = renderer.create(
