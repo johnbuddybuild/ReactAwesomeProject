@@ -17,6 +17,3 @@ echo '=== Install appium 1.4.16'
 npm install -g appium
 echo '=== Install selenium-webdriver'
 npm install wd
-
-echo '=== Authorize simulator access'
-echo password | sudo -S authorize_ios
