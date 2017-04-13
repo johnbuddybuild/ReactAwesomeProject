@@ -2,8 +2,7 @@
 
 echo '=== PREBUILD FOLDER STRUCTURE'
 ls -1
-echo "=== INBOUND FOLDER PATH"
-pwd
+mkdir /tmp/sandbox/workspace/buddybuild_artefacts
 echo '=== ../ FOLDER STRUCTURE'
 cd ../
 ls -1

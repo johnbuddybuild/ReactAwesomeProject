@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest --outputFile=results.json --json --verbose"
+    "test": "jest --outputFile=buddybuild_artefacts/results.json --json --verbose"
   },
   "dependencies": {
     "react": "16.0.0-alpha.6",
