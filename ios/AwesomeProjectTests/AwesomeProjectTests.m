@@ -37,7 +37,7 @@
 
 - (void)testRendersWelcomeScreen
 {
-  XCTAssertTrue(true,true);
+  XCTAssert(true);
 }
 
 
