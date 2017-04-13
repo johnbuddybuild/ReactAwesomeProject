@@ -9,5 +9,3 @@ cd ../
 ls -1
 echo '=== ../ FOLDER PATH'
 pwd
-
-< ps aux
