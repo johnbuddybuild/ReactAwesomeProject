@@ -20,3 +20,7 @@ it('renders correctly', () => {
 it('simple test',() => {
     expect((1+1)).toBe(2);
 });
+
+it('should fail this test', () => {
+    expect((1+1)).toBe(42);
+});
