@@ -22,5 +22,5 @@ it('simple test',() => {
 });
 
 it('should fail this test', () => {
-    expect((1+1)).toBe(42);
+    expect((1+1)).toBe(2);
 });
