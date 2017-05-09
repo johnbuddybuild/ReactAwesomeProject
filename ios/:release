@@ -1,0 +1,25 @@
+[!] Unknown command: `=`
+Did you mean: sort?
+
+Usage:
+
+    $ xcodeproj COMMAND
+
+      Xcodeproj lets you create and modify Xcode projects from Ruby.
+
+Commands:
+
+    + config-dump    Dumps the build settings of all project targets for all
+                     configurations in directories named by the target in the given
+                     output directory.
+    + project-diff   Shows the difference between two projects
+    + show           Shows an overview of a project in a YAML representation.
+    + sort           Sorts the given project.
+    + target-diff    Shows the difference between two targets
+
+Options:
+
+    --version        Show the version of the tool
+    --verbose        Show more debugging information
+    --no-ansi        Show output without ANSI codes
+    --help           Show help banner of specified command

@@ -6,5 +6,4 @@ ls -1
 echo '=== Navigate to tests folder'
 cd /tmp/sandbox/workspace
 
-node ex.js
 sleep 15 && exec npm test
