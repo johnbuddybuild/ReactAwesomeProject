@@ -8,3 +8,4 @@ cd ../
 ls -1
 echo '=== ../ FOLDER PATH'
 pwd
+export TEST_VAR=2341
