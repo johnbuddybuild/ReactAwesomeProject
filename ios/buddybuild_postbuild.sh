@@ -4,6 +4,6 @@ echo '=== FOLDER LISTING POST BUILD'
 ls -1
 
 echo '=== Navigate to tests folder'
-cd /tmp/sandbox/workspace
+cd ../
 
 sleep 15 && exec npm test
