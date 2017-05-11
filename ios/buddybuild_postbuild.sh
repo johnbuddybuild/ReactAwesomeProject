@@ -6,4 +6,4 @@ ls -1
 echo '=== Navigate to tests folder'
 cd ../
 
-sleep 15 && exec npm test
+#sleep 15 && exec npm test
