@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo '=== CUSTOM TEST PATH ==='
-export $BUDDYBUILD_CUSTOM_TEST_RESULTS;
+echo $BUDDYBUILD_CUSTOM_TEST_RESULTS;
 echo '=== FOLDER LISTING POST BUILD'
 ls -1
 
