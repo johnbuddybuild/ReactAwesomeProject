@@ -6,3 +6,4 @@ ls -1
 
 echo '=== Navigate to tests folder'
 cd ../
+npm test
